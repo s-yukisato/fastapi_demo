@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi_demo_titanic"
+version = "0.1.0"
+description = ""
+authors = ["s-yukisato"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.73.0"
+uvicorn = "^0.17.1"
+pandas = "^1.4.0"
+numpy = "^1.22.1"
+pydantic = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
